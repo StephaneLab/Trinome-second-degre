@@ -40,7 +40,6 @@ def my_Trinome(a, b, c):
     if delta > 0:
         print("Delta est strictement positif:")
         print("Il y a deux racines réelles distinctes x1 et x2.")
-        print("La parabole coupe l'axe des abscisses deux points d'abscisses respectives x1 et x2.")
         x1 = (-b - np.sqrt(delta)) / 2 / a
         x2 = (-b + np.sqrt(delta)) / 2 / a
         print("Le trinôme se factorise sous la forme :")
@@ -48,7 +47,7 @@ def my_Trinome(a, b, c):
         print(f"a  = {a}")
         print(f"x1 = {x1}")
         print(f"x2 = {x2}")
-        print("La parabole coupe l'axe des x en 2 points distincts")
+        print("La parabole coupe l'axe des abscisses deux points distincts d'abscisses respectives x1 et x2.")
         print()
         # Signe du trinôme
         print("Signe du trinôme : ")
@@ -62,13 +61,12 @@ def my_Trinome(a, b, c):
         print("Delta est nul :")
         print("Il y a une racine réelle double x0 :")
         x0 = -b / 2 / a
-        print("La parabole coupe l'axe des abscisses en un seul point d'abscisse x0.")
         print("Le trinôme se factorise sous la forme :")
         print("T(x) = a(x - x0)^2")
         print(f"a  = {a}")
         print(f"x0 = {x0}")
         print()
-        print("La parabole coupe l'axe des x en 1 seul point.")
+        print("La parabole coupe l'axe des abscisses en un seul point d'abscisse x0.")
         print()
         #Signe du trinôme
         print("Signe du trinôme : ")
