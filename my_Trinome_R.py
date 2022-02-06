@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def my_Trinome(a, b, c):
-    # Etude d'un trinome du second degré pour les élèves de terminale connaissant les nombres complexes 
+    # Etude d'un trinome du second degré pour les élèves de terminale connaissant les nombres complexes
     if a == 0:
         print("La fonction n'est pas une fonction du second degré : Fin.")
     elif a > 0 or a < 0:
@@ -55,7 +55,7 @@ def my_Trinome(a, b, c):
         print("et du signe de -a entre les racines :")
         print("x    | -Inf  x1    x2  +Inf |")
         print("-----------------------------")
-        print(f"T(x) |   {signeAChar}    0  {moinsSigneAChar}  0    {signeAChar}   |")
+        print(f"T(x) |   {signeAChar}    0  {moinsSigneAChar}  0    {signeAChar}  |")
     # Si delta est nul
     elif delta == 0:
         print("Delta est nul :")
@@ -99,7 +99,7 @@ def my_Trinome(a, b, c):
     plt.show()
     print("Fin")
 # Saisie des coefficients du trinôme
-print("Etude du trinôme du second degré T(x) = ax²+bx+cn avec a non nul :")
+print("Etude du trinôme du second degré T(x) = ax²+bx+c avec a non nul :")
 a = input("Entrez le coefficient a : ")
 b = input("Entrez le coefficient b : ")
 c = input("Entrez le coefficient c : ")
@@ -109,4 +109,3 @@ b = float(b)
 c = float(c)
 # Exécution de la fonction _my_Trinome_Term
 my_Trinome(a, b, c)
-
