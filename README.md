@@ -1,4 +1,4 @@
-# Trinome-second-degre-racines-reelles
+# Trinome-second-degre
 Ce programme est écrit en Python. Le code propose une fonction qui se nomme my_Trinome et l'exécute.
 
 La fonction calcule les racines d'un trinôme du second degré dans le cas de racines réelles, elle est compréhensible par les élèves de première du lycée ayant vu le cours sur le trinôme du second degré.
